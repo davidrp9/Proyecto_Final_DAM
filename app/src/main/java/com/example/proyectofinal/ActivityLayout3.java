@@ -5,14 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-    private Button btn_Registrar;
+public class ActivityLayout3 extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.layout3);
     }
 
     public void onClickIntent (View v) {
@@ -21,12 +20,13 @@ public class MainActivity extends AppCompatActivity {
         switch (id)
         {
             case R.id.Btn_Inicio:
-                registrar();
+                startActivity(new Intent(this, ActivityLayout2.class));
+                return;
+            case R.id.Btn_Usuario:
+                startActivity(new Intent(this, ActivityLayout3.class));
+            case R.id.Btn_Atras:
+                finish();
                 break;
         }
-    }
-
-    public void registrar () {
-        startActivity(new Intent(this, ActivityLayout2.class));
     }
 }

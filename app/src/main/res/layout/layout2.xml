@@ -20,6 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="onClickIntent"
             android:text="Inicio" />
 
         <Button
@@ -27,6 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="onClickIntent"
             android:text="Usuario" />
 
         <Button
@@ -34,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="onClickIntent"
             app:icon="@drawable/abc_vector_test" />
     </LinearLayout>
 
@@ -66,6 +69,7 @@
                     android:layout_marginStart="45dp"
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="45dp"
+                    android:onClick="onClickIntent"
                     tools:srcCompat="@tools:sample/avatars" />
 
                 <TextView
@@ -106,6 +110,7 @@
                     android:layout_marginRight="20dp"
                     android:layout_toEndOf="@+id/imageButton20"
                     android:layout_toRightOf="@+id/imageButton20"
+                    android:onClick="onClickIntent"
                     android:text="Descripcion Post" />
 
             </RelativeLayout>
