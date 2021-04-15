@@ -103,7 +103,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Post" />
+            app:icon="@android:drawable/ic_menu_add" />
 
         <Button
             android:id="@+id/Btn_Usuario"
