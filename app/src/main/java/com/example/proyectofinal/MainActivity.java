@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         switch (id)
         {
-            case R.id.Btn_Inicio:
+            case R.id.Btn_Volver:
                 registrar();
                 break;
         }

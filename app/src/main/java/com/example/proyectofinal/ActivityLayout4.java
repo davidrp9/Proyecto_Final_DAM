@@ -19,10 +19,10 @@ public class ActivityLayout4 extends AppCompatActivity {
 
         switch (id)
         {
-            case R.id.Btn_Inicio:
+            case R.id.Btn_Volver:
                 startActivity(new Intent(this, ActivityLayout2.class));
                 return;
-            case R.id.Btn_Usuario:
+            case R.id.Btn_Confirmar:
                 startActivity(new Intent(this, ActivityLayout3.class));
             case R.id.Btn_Atras:
                 finish();

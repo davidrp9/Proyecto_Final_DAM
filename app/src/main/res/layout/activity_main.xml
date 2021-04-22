@@ -18,7 +18,7 @@
         android:textSize="50dp"/>
 
     <EditText
-        android:id="@+id/ET_Nickname"
+        android:id="@+id/ET_Nombre_Usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -38,7 +38,7 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ET_Nickname"
+        app:layout_constraintTop_toBottomOf="@+id/ET_Nombre_Usuario"
         android:hint="Password"/>
 
     <LinearLayout
@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ET_Password">
 
         <Button
-            android:id="@+id/Btn_Inicio"
+            android:id="@+id/Btn_Volver"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -60,7 +60,7 @@
             android:text="Entrar" />
 
         <Button
-            android:id="@+id/Btn_Usuario"
+            android:id="@+id/Btn_Confirmar"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
