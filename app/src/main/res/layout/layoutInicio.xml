@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ActivityLayout1">
 
     <TextView
         android:id="@+id/TV_Titulo"
@@ -64,6 +64,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
+            android:onClick="onClickIntent"
             android:text="Registrar" />
     </LinearLayout>
 

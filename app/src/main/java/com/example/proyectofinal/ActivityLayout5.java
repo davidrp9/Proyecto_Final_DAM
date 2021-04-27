@@ -11,12 +11,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ActivityLayout4 extends AppCompatActivity {
+public class ActivityLayout5 extends AppCompatActivity {
     //Esta actividad corresponde a la vista donde se puede ver la información del post publicado por un usuario.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layoutPost);
+        setContentView(R.layout.layoutRegistrar);
     }
 
     public void onClickIntent (View v) {
@@ -24,17 +24,13 @@ public class ActivityLayout4 extends AppCompatActivity {
 
         switch (id)
         {
-            //Dirije al usuario a la vista principal
+            //Dirije al usuario a la vista inicial (Registro)
             case R.id.Btn_Volver:
-                startActivity(new Intent(this, ActivityLayout2.class));
+                startActivity(new Intent(this, ActivityLayout1.class));
                 break;
-            //Te dirije a la información del usuario registrado.
+            //Guarda la información en la base de datos y dirije al usuario a la vista principal.
             case R.id.Btn_Confirmar:
-                startActivity(new Intent(this, ActivityLayout3.class));
-                break;
-                //Dirjje al usuario a la vista anterior.
-            case R.id.Btn_Atras:
-                finish();
+                startActivity(new Intent(this, ActivityLayout1.class));
                 break;
         }
     }
