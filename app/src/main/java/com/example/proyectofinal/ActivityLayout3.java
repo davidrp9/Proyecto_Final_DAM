@@ -16,7 +16,7 @@ public class ActivityLayout3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layoutPerfil);
+        setContentView(R.layout.layout_perfil);
     }
 
     public void onClickIntent (View v) {

@@ -16,7 +16,7 @@ public class ActivityLayout4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layoutPost);
+        setContentView(R.layout.layout_post);
     }
 
     public void onClickIntent (View v) {

@@ -19,7 +19,7 @@ public class ActivityLayout1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layoutInicio);
+        setContentView(R.layout.layout_inicio);
     }
 
     //La función onClickIntent esta asignada a los dos botones del layout ActivityMain y dependiendo del id del botón se ejecutará una función diferente.
