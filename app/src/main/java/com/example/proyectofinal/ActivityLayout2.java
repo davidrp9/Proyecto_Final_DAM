@@ -29,7 +29,7 @@ public class ActivityLayout2 extends AppCompatActivity {
             case R.id.Btn_Volver:
                 startActivity(new Intent(this, ActivityLayout2.class));
                 break;
-                //Te dirije a la información del usuario registrado.
+                //Te dirige a la información del usuario registrado.
             case R.id.Btn_Confirmar:
                 startActivity(new Intent(this, ActivityLayout3.class));
                 break;
@@ -37,15 +37,15 @@ public class ActivityLayout2 extends AppCompatActivity {
             case R.id.Btn_Atras:
                 finish();
                 break;
-                //Te dirije a la información del usuario que ha publicado el post.
+                //Te dirige a la información del usuario que ha publicado el post.
             case R.id.imageButton20:
                 startActivity(new Intent(this, ActivityLayout3.class));
                 break;
-                //Te dirije a la información del post
+                //Te dirige a la información del post
             case R.id.TV_DescripcionPost3:
                 startActivity(new Intent(this, ActivityLayout4.class));
                 break;
-                //Te dirije a una vista donde se podrá crear un publicar un nuevo post
+                //Te dirige a una vista donde se podrá crear un publicar un nuevo post
             default:
                 startActivity(new Intent(this, ActivityLayout4.class));
         }

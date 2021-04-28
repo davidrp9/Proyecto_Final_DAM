@@ -24,15 +24,15 @@ public class ActivityLayout4 extends AppCompatActivity {
 
         switch (id)
         {
-            //Dirije al usuario a la vista principal
+            //Dirige al usuario a la vista principal
             case R.id.Btn_Volver:
                 startActivity(new Intent(this, ActivityLayout2.class));
                 break;
-            //Te dirije a la información del usuario registrado.
+            //Te dirige a la información del usuario registrado.
             case R.id.Btn_Confirmar:
                 startActivity(new Intent(this, ActivityLayout3.class));
                 break;
-                //Dirjje al usuario a la vista anterior.
+                //Dirjge al usuario a la vista anterior.
             case R.id.Btn_Atras:
                 finish();
                 break;

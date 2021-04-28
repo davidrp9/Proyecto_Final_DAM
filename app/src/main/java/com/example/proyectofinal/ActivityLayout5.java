@@ -24,11 +24,11 @@ public class ActivityLayout5 extends AppCompatActivity {
 
         switch (id)
         {
-            //Dirije al usuario a la vista inicial (Registro)
+            //Dirige al usuario a la vista inicial (Registro)
             case R.id.Btn_Volver:
                 startActivity(new Intent(this, ActivityLayout1.class));
                 break;
-            //Guarda la información en la base de datos y dirije al usuario a la vista principal.
+            //Guarda la información en la base de datos y dirige al usuario a la vista principal.
             case R.id.Btn_Confirmar:
                 startActivity(new Intent(this, ActivityLayout1.class));
                 break;
