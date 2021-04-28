@@ -42,7 +42,7 @@ public class ActivityLayout2 extends AppCompatActivity {
                 startActivity(new Intent(this, ActivityLayout3.class));
                 break;
                 //Te dirije a la información del post
-            case R.id.textView50:
+            case R.id.TV_DescripcionPost3:
                 startActivity(new Intent(this, ActivityLayout4.class));
                 break;
                 //Te dirije a una vista donde se podrá crear un publicar un nuevo post

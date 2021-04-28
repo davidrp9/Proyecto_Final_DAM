@@ -28,7 +28,7 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/TV_NombreUsuario4"
             android:layout_width="111dp"
             android:layout_height="26dp"
             android:layout_alignParentTop="true"
@@ -40,10 +40,10 @@
             android:text="Nombre Usuario" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/TV_TituloPost5"
             android:layout_width="111dp"
             android:layout_height="26dp"
-            android:layout_below="@+id/textView3"
+            android:layout_below="@+id/TV_NombreUsuario4"
             android:layout_marginStart="74dp"
             android:layout_marginLeft="74dp"
             android:layout_marginTop="40dp"
@@ -52,10 +52,10 @@
             android:text="Titulo Post" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/TV_DescripcionPost5"
             android:layout_width="373dp"
             android:layout_height="98dp"
-            android:layout_below="@+id/textView3"
+            android:layout_below="@+id/TV_NombreUsuario4"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginStart="-130dp"
@@ -68,7 +68,7 @@
             android:text="Descripcion Post" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/TV_FechaPost"
             android:layout_width="103dp"
             android:layout_height="29dp"
             android:layout_alignParentTop="true"
