@@ -16,7 +16,7 @@ public class ActivityLayout5 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layoutRegistrar);
+        setContentView(R.layout.layout_registrar);
     }
 
     public void onClickIntent (View v) {
